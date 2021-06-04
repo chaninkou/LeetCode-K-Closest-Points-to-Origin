@@ -29,6 +29,7 @@ public class FindKClosestPointsFunction {
         return result;
     }
 	
+	// More logically steps
 	 public int[][] kClosest2(int[][] points, int K) {
 	        int[][] result = new int[K][2];
 	        
