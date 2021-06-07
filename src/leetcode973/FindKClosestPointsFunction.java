@@ -46,7 +46,7 @@ public class FindKClosestPointsFunction {
 	            int a = points[i][0] * points[i][0];
 	            int b = points[i][1] * points[i][1];
 	            
-	            // The formula for the equation given
+	            // The formula from the equation given
 	            double sum = Math.sqrt(a + b);
 	            
 	            if(map.get(sum) == null){
